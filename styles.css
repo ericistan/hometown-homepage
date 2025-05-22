@@ -40,11 +40,7 @@ body {
     text-align: center;
     font-size: 1.125rem;
     font-family: sans-serif;
-    color: #030A1B;
-}
-
-img {
-    width: 100px;
+    background-color: #030A1B;
 }
 
 .section-hero {
@@ -83,6 +79,7 @@ img {
     display: flex;
     flex-direction: column;
     align-items: center;
+    background-color: #75A8E6;
 }
 
 .activities-wrapper {
@@ -96,7 +93,9 @@ img {
 
 .activities-wrapper img {
     border-radius: 50%;
-    width: 120px;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
 }
 
 .activities-content-wrapper {
@@ -109,7 +108,8 @@ img {
 
 .guide-content-wrapper {
     padding: 2rem 1rem;
-    background-color: pink;
+    background-color: #B300D7;
+    color: white;
     width: 400px;
     margin: 3rem auto;
     display: flex;
@@ -123,7 +123,8 @@ img {
 }
 
 .guide-content-wrapper img {
-    width: 200px;
+    width: 150px;
+    border-radius: 1rem;;
 }
 
 .guide-text-wrapper {
